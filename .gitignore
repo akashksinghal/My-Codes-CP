@@ -1,0 +1,47 @@
+# Prerequisites
+*.d
+*.tcs
+*.bin
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#template
+template.cpp
+
+
+*.swp
+*.vscode
+# Temperory file
+temp.cpp
+
+# Input-Output File
+output.txt
+input.txt
