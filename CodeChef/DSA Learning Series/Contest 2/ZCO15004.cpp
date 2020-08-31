@@ -8,12 +8,12 @@ signed main()
 {
     fasino
     ll n, x, y;
-    // cin >> n;
-    vector<ll> A(100001,499);
-    // for (ll i = 0; i < 100000; i++) {
-    //     cin >> x >> y ;
-    //     A[x] = min(y,A[x]);
-    // }
+    cin >> n;
+    vector<ll> A(100001,500);
+    for (ll i = 0; i < n; i++) {
+        cin >> x >> y ;
+        A[x] = min(y,A[x]);
+    }
     A[100000] = 0;
     ll maxi = 0;
     stack <ll> st;
