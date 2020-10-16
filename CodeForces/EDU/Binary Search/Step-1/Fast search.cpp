@@ -38,8 +38,6 @@ signed main(){
         cin >> l >> r ;
         auto a = Closest_to_the_left(r,-1,n,A);
         auto b = Closest_to_the_right(l,-1,n,A);       
-        // cout << b.first << ' ' << a.first << '\n';
         cout << a.first - b.first + 1 << ' ';
-        // cout <<"HELLO";
     }
 }
