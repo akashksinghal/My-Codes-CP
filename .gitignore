@@ -39,6 +39,7 @@ template.cpp
 
 *.swp
 *.vscode
+*.prob
 # Temperory file
 temp.cpp
 
