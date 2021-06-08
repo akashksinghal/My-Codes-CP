@@ -4,6 +4,11 @@ using namespace std;
 struct Node{
 	int data;
 	struct Node *next;
+	Node(int val){
+		this->data = val;
+		this->next = NULL;
+	}
+	Node(){}
 };
 
 void pushFront(Node **head, int val){
